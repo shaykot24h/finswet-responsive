@@ -1,0 +1,37 @@
+@media (max-width: 991.98px) {
+  .Navcustom_btn {
+    background: white;
+  }
+  .Navcustom_btn:focus {
+    box-shadow: none;
+  }
+  .navbar_item {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+  .navbar-nav {
+    margin-top: 20px;
+  }
+  .nav-item a {
+    color: var(--primary_text_color, #282938);
+    background-color: var(--Yellow_color);
+  }
+  .navbar_item:hover {
+    scale: 1.06;
+  }
+  .navbtn {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .navbtn {
+    padding: 20px 78px;
+  }
+  .topicons i {
+    padding-left: 10px;
+  }
+  .template1 {
+    margin-bottom: 35px;
+  }
+}

@@ -1,0 +1,34 @@
+@media (max-width: 575.98px) {
+  .toptextpart__title {
+    font-size: 37px;
+  }
+  .navbar_item {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+
+  .listitem li a {
+    font-size: 13px;
+    margin-top: 95px;
+  }
+  .template1__title {
+    text-align: center;
+  }
+  .template1__title {
+    text-align: center;
+  }
+  .toptextpart__title {
+    font-size: 33px;
+  }
+  .toptextpart__summary {
+    font-size: 14px;
+  }
+  .textbottom__title {
+    font-size: 32px;
+    line-height: 43px;
+  }
+  .textbottom__summary {
+    font-size: 15px;
+  }
+}

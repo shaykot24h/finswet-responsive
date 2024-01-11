@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+img,
+div,
+span,
+p,
+li {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary_bg_color: #1c1e53;
+  --primary_text_color: #282938;
+  --icon_color: #2405f2;
+  --secondary_bgcolor: #f4f5f5;
+  --third_bgcolor: #eef4fa;
+  --graycolor: #f4f6fc;
+  --white_color: #fff;
+  --Yellow_color: #fcd980;
+}
+/*============================================
+                Navber Css Start
+==============================================*/
+.customNavbar {
+  background-color: var(--primary_bg_color);
+}
+
+.navbar_item {
+  color: var(--white_color, #fff);
+  margin-right: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.navbar_item:hover {
+  color: var(--white_color, #fff);
+}
+
+.navbtn {
+  padding: 16px 48px;
+  margin-right: 0px;
+  background-color: transparent;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  color: var(--white_color, #fff);
+  border-radius: 41px;
+  -webkit-border-radius: 41px;
+  -moz-border-radius: 41px;
+  -ms-border-radius: 41px;
+  -o-border-radius: 41px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.navbtn:hover {
+  border: 2px solid var(--white_color);
+  color: var(--primary_text_color);
+  background-color: var(--Yellow_color);
+}
+.Navcustom_btn {
+  background: white;
+}
+.Navcustom_btn:focus {
+  box-shadow: none;
+}
+
+/*============================================
+                Navber Css End
+==============================================*/
+/*============================================
+            Our Work Part Css Start
+==============================================*/
+#work_part {
+  padding: 96px 0;
+  background-color: var(--graycolor);
+}
+.toptextpart__subtitle {
+  color: var(--primary_text_color, #282938);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.toptextpart__title {
+  color: var(--primary_text_color, #282938);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+.toptextpart__summary {
+  color: var(--primary_text_color, #282938);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.topicons {
+  text-align: center;
+  margin-top: 30px;
+}
+.listitem li a {
+  color: var(--primary_text_color);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 192px;
+}
+.fixed_item a {
+  color: var(--icon_color);
+}
+.template1__title {
+  color: var(--primary_text_color, #282938);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.template1__summary {
+  color: var(--primary_text_color, #282938);
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.template1__view {
+  color: var(--primary_text_color, #282938);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.template1__view i {
+  padding-left: 10px;
+}
+.textbottom {
+  padding: 128px 0;
+}
+.textbottom__title {
+  color: var(--primary_text_color, #282938);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+.textbottom__summary {
+  color: var(--primary_text_color, #282938);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.textbottom__btn {
+  color: #1b1c2b;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  width: 230px;
+  height: 64px;
+  padding: 16px 66px;
+  background-color: var(--Yellow_color);
+  border-radius: 41px;
+}
+/*============================================
+            Our Work Part Css End
+==============================================*/
+/*==================================
+       Footer Part Css Start
+=================================*/
+#footer_part {
+  padding: 60px 0 0 0;
+  background-color: var(--primary_bg_color);
+}
+.footerLeft__summary {
+  color: var(--white_color, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+}
+.footerleftIn {
+  background-color: var(--Yellow_color, #fcd980);
+  margin-top: 56px;
+}
+.footerRight {
+  margin-left: 50px;
+}
+.footerRight__title {
+  color: var(--white_color, #fff);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+.footerRight__summary {
+  color: var(--white_color, #fff);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+.footerNewleft__title {
+  color: var(--primary_text_color, #282938);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.footerNewleft__mail {
+  color: var(--primary_text_color, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.footerNewRight__title {
+  color: var(--primary_text_color, #282938);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.footerNewRight__contact {
+  color: var(--primary_text_color, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.footerIcons i {
+  color: var(--white_color, #fff);
+}
+.footerCustomicon {
+  padding-left: 15px;
+}
+
+/*==================================
+       Footer Part Css End
+=================================*/
